@@ -10,6 +10,13 @@ import { DataTables, DataTablesServer } from 'vue-data-tables'
 Vue.use(DataTables)
 Vue.use(DataTablesServer)
 
+import VueGoodTablePlugin from 'vue-good-table';
+import 'vue-good-table/dist/vue-good-table.css'
+Vue.use(VueGoodTablePlugin);
+
+
+
+
 // import DataTables and DataTablesServer together
 import VueDataTables from 'vue-data-tables'
 
