@@ -15,6 +15,7 @@ import Sidebar from "./components/Sidebar.vue";
 import Footer from "./components/Footer.vue";
 import Content from "./components/Content.vue";
 
+
 export default Vue.extend({
   name: "App",
   components: {
