@@ -5,11 +5,11 @@ import { server } from "@/services/constants";
 
 
 export const getProducts = () => {
-  return httpClient.get(server.PRODUCT_URL);
+  return httpClient.get(`http://localhost:9090/api/provider`);
 };
 
 export const getProductById = id => {
-  return httpClient.get(server.PRODUCT_URL + `/id/${id}`);
+  return httpClient.get(`http://localhost:9090/api/provider` + `/${id}`);
 };
 
 export const addProduct = data => {
